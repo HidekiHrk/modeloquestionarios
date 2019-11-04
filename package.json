@@ -1,0 +1,22 @@
+{
+  "name": "modeloquestionarios",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/index.js",
+  "scripts": {
+    "start": "live-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HidekiHrk/modeloquestionarios.git"
+  },
+  "author": "HidekiHrk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HidekiHrk/modeloquestionarios/issues"
+  },
+  "homepage": "https://github.com/HidekiHrk/modeloquestionarios#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
