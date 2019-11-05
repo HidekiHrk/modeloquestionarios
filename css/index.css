@@ -1,11 +1,11 @@
 html {
     max-width: 100vw;
-    max-height: 100vh;
+    height: 100vh;
 }
 body {
     font-family: 'Titillium Web', sans-serif;
     max-width: 100vw;
-    max-height: 100vh;
+    height: 100vh;
 }
 
 body::-webkit-scrollbar {
@@ -19,4 +19,14 @@ body::-webkit-scrollbar-thumb {
 
 .ts {
     text-shadow: 2px 2px 1px #3333;
+}
+
+
+.custom-control-label:hover {
+    cursor: pointer;
+}
+
+.radio .custom-control-input:checked~.custom-control-label::before{
+    background-color: #333;
+    border-color: #333;
 }
