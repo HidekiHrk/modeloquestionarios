@@ -1,32 +1,14 @@
-html {
-    max-width: 100vw;
-    height: 100vh;
-}
-body {
-    font-family: 'Titillium Web', sans-serif;
-    max-width: 100vw;
-    height: 100vh;
+nav#mainNavBar {
+    height: 80px;
+    /* background-color: transparent; */
+    background: linear-gradient(to bottom, #0008, transparent);
+    box-shadow: none;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
 }
 
-body::-webkit-scrollbar {
-    width: 8px;
-    background-color: #eee;
-}
-body::-webkit-scrollbar-thumb {
-    width: 8px;
-    background-color: #333;
-}
-
-.ts {
-    text-shadow: 2px 2px 1px #3333;
-}
-
-
-.custom-control-label:hover {
-    cursor: pointer;
-}
-
-.radio .custom-control-input:checked~.custom-control-label::before{
-    background-color: #333;
-    border-color: #333;
+div#bannerBlock {
+    background-image: url("https://media.tenor.com/images/5b383382c5772096baf2afd6d0c48900/tenor.gif");
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
